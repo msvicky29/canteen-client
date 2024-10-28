@@ -93,7 +93,7 @@ function Dashboard() {
             <Coffee className="text-orange-500" size={40} />
             <h1 className="text-4xl font-extrabold text-gray-800">Canteen Menu Admin</h1>
           </div>
-          <div  classname='flex gap-4 '>
+          <div  className='flex gap-4 '>
           <button
             onClick={() => setShowAddForm(true)}
             className="flex items-center gap-2 bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors shadow-md"
