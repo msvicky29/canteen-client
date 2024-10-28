@@ -20,7 +20,7 @@ const LoginPage = () => {
         setError('')
         
         // Verify credentials and send OTP
-        const response = await fetch('http://localhost:5000/api/auth/login', {
+        const response = await fetch('https://canteen-server-kyek.onrender.com/api/auth/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -94,9 +94,9 @@ const LoginPage = () => {
                 required
               />
             </div>
-            <div className="flex items-center justify-between mb-6">
+{/*             <div className="flex items-center justify-between mb-6">
               <a href="#" className="text-sm text-orange-500 hover:underline">Forgot password?</a>
-            </div>
+            </div> */}
             <button 
               type="submit" 
               className="w-full bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 transition-colors disabled:bg-orange-300"
