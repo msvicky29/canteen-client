@@ -1,8 +1,48 @@
-# React + Vite
+# AVC College Canteen Menu 🍽️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application that displays real-time menu items from AVC College Canteen. Built with React and Tailwind CSS, this application provides an intuitive interface for students and staff to check available food items and their prices.
 
-Currently, two official plugins are available:
+![Canteen Menu App Screenshot](screenshot.png) <!-- Add your app screenshot here -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
+
+- **Live Menu Updates**: Real-time menu display with availability status
+- **Category-wise Organization**: Items neatly organized by food categories
+- **Responsive Design**: Seamless experience across all devices
+- **Smart Filtering**: Shows only available items
+- **Modern UI**: Clean interface with smooth animations
+- **Quick Price Check**: Easy-to-read price tags for each item
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: React + Vite
+- **Styling**: Tailwind CSS
+- **API Integration**: Fetch API
+- **Build Tool**: Vite
+- **Deployment**: [Your Deployment Platform]
+
+## 🚀 Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone [your-repo-link]
+   cd canteen-menu
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 📁 Project Structure
+
